@@ -1,5 +1,8 @@
-const numbers = [1, 2, 3, 4]
+const numbers = [1, 2, 3, 4, 5]
 
-numbers.forEach(function (number, index) {
-    console.log(number, index)
+const newNumbers = numbers.map(function(number) {
+    return number + 1; 
 })
+
+console.log(newNumbers)
+console.log(numbers)
