@@ -1,6 +1,8 @@
 "use strict";
 
-var numbers = [1, 2, 3, 4];
-numbers.forEach(function (number, index) {
-  console.log(number, index);
+var numbers = [1, 2, 3, 4, 5];
+var newNumbers = numbers.map(function (number) {
+  return number + 1;
 });
+console.log(newNumbers);
+console.log(numbers);
